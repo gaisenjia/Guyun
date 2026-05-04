@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI育种、谷物品质检测与批次溯源全链路管控平台">
+  <title>谷蕴新生 · AI育种全链路品质管控</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 首屏 Hero -->
+  <header class="hero" id="top">
+    <div class="hero__inner">
+      <div class="hero__text" data-animate="fade-up">
+        <p class="eyebrow">Grain Quality Control Platform</p>
+        <h1>AI育种 · 品质检测 · 批次溯源</h1>
+        <p class="hero__lead">围绕样本筛选、视觉识别、风险分级与溯源记录，形成从原粮到应用场景的品质管控闭环。</p>
+        <div class="hero__tags" aria-label="核心能力标签">
+          <span>AI谷物识别</span>
+          <span>智能检测报告</span>
+          <span>批次溯源</span>
+        </div>
+        <div class="hero__actions">
+          <button class="btn btn--primary" type="button" data-scroll-target="breeding">查看管控流程</button>
+          <button class="btn btn--secondary" type="button" data-scroll-target="trace">查看批次溯源</button>
+        </div>
+      </div>
+      <div class="hero__visual" data-animate="fade-up" data-delay="1">
+        <div class="hero-card">
+          <img class="hero-card__img" src="assets/scene-hero-lab.png" alt="谷物品质检测实验室" width="640" height="360" loading="eager">
+          <div class="hero-card__overlay">
+            <span class="status-dot status-dot--green"></span>
+            <span>品质管控运行中</span>
+          </div>
+          <div class="hero-card__stats">
+            <div class="hero-stat">
+              <strong>88</strong>
+              <span>综合评分</span>
+            </div>
+            <div class="hero-stat">
+              <strong>6</strong>
+              <span>管控节点</span>
+            </div>
+            <div class="hero-stat">
+              <strong>24h</strong>
+              <span>溯源响应</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- AI育种流程 -->
+    <section class="section" id="breeding" aria-labelledby="breeding-title">
+      <div class="section__head" data-animate="fade-up">
+        <p class="eyebrow">Process 01</p>
+        <h2 id="breeding-title">AI育种流程</h2>
+        <p>从原粮样本到产业应用，用检测数据反向支持育种筛选与品质迭代。</p>
+      </div>
+      <div class="flow-visual" data-animate="fade-up">
+        <img class="flow-visual__img" src="assets/scene-breeding.png" alt="AI育种流程场景" width="640" height="360" loading="lazy">
+        <div class="flow-visual__badge">
+          <span class="status-dot status-dot--green"></span>
+          样本入库
+        </div>
+      </div>
+      <div class="flow-list">
+        <article class="flow-card" data-animate="stagger" data-index="0">
+          <span class="flow-card__num">01</span>
+          <h3>原粮样本采集</h3>
+          <p>采集示例谷物样本，形成标准化检测起点。</p>
+        </article>
+        <article class="flow-card" data-animate="stagger" data-index="1">
+          <span class="flow-card__num">02</span>
+          <h3>批次信息录入</h3>
+          <p>录入样本类型、批次编号和采样信息，建立批次档案。</p>
+        </article>
+        <article class="flow-card" data-animate="stagger" data-index="2">
+          <span class="flow-card__num">03</span>
+          <h3>AI谷物识别</h3>
+          <p>识别杂质、破碎粒、颜色异常、霉变风险等视觉特征。</p>
+        </article>
+        <article class="flow-card" data-animate="stagger" data-index="3">
+          <span class="flow-card__num">04</span>
+          <h3>风险评级与检测报告</h3>
+          <p>生成综合评分、风险等级和处理建议，输出品质判定。</p>
+        </article>
+        <article class="flow-card" data-animate="stagger" data-index="4">
+          <span class="flow-card__num">05</span>
+          <h3>AI育种辅助</h3>
+          <p>优质样本纳入候选池，为育种迭代提供数据支撑。</p>
+        </article>
+        <article class="flow-card" data-animate="stagger" data-index="5">
+          <span class="flow-card__num">06</span>
+          <h3>供应链溯源与产业应用</h3>
+          <p>检测结果进入溯源链路，服务品质证明和批次流转。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 批次扫码溯源 -->
+    <section class="section" id="trace" aria-labelledby="trace-title">
+      <div class="section__head" data-animate="fade-up">
+        <p class="eyebrow">Process 02</p>
+        <h2 id="trace-title">批次扫码溯源</h2>
+        <p>通过批次标识关联样本来源、检测记录、风险分级与流转节点，支撑品质证明和批次管理。</p>
+      </div>
+      <div class="trace-panel">
+        <div class="qr-card" data-animate="fade-up">
+          <div class="qr-visual">
+            <img class="qr-visual__img" src="assets/scene-traceability.png" alt="批次溯源场景" width="400" height="260" loading="lazy">
+            <div class="qr-visual__badge">
+              <span class="status-dot status-dot--gold"></span>
+              待查询
+            </div>
+          </div>
+          <div class="qr-visual__mock">
+            <div class="mock-qr" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <p class="qr-visual__label">批次溯源码</p>
+          </div>
+          <button class="btn btn--primary btn--full" type="button" id="showBatchBtn">查询批次信息</button>
+        </div>
+        <article class="batch-card" id="batchCard" hidden>
+          <div class="card-title-row">
+            <h3>批次信息</h3>
+            <span class="status-pill">已查询</span>
+          </div>
+          <dl class="info-grid">
+            <div><dt>批次编号</dt><dd>GY-2026-001</dd></div>
+            <div><dt>原料类型</dt><dd>玉米样本</dd></div>
+            <div><dt>采样状态</dt><dd>已完成</dd></div>
+            <div><dt>检测状态</dt><dd>已完成</dd></div>
+            <div><dt>品质等级</dt><dd>合格</dd></div>
+            <div><dt>风险等级</dt><dd>中风险</dd></div>
+            <div><dt>流转节点</dt><dd>已进入分级处理</dd></div>
+          </dl>
+          <p class="recommendation"><strong>处理建议：</strong>建议人工复核；分级筛选后再进入加工或饲喂链路。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- AI谷物检测报告 -->
+    <section class="section section--report" id="report" aria-labelledby="report-title">
+      <div class="section__head" data-animate="fade-up">
+        <p class="eyebrow">Process 03</p>
+        <h2 id="report-title">AI谷物检测报告</h2>
+        <p>基于视觉识别与批次信息，生成包含评分、风险等级与处理建议的品质检测报告。</p>
+      </div>
+      <div class="detect-panel">
+        <div class="sample-card" data-animate="fade-up">
+          <div class="sample-visual">
+            <img class="sample-visual__img" src="assets/scene-detection.png" alt="谷物检测场景" width="400" height="260" loading="lazy">
+            <div class="sample-visual__badge">
+              <span class="status-dot status-dot--green"></span>
+              品质识别
+            </div>
+          </div>
+          <div class="grain-sample" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <h3>玉米样本 · 品质检测</h3>
+          <p>对原粮样本进行外观特征识别与风险分级。</p>
+          <button class="btn btn--primary btn--full" type="button" id="runDetectBtn">开始品质检测</button>
+        </div>
+        <article class="report-card" id="reportCard" hidden aria-live="polite">
+          <div class="card-title-row">
+            <h3>谷物原料视觉检测报告</h3>
+            <span class="status-pill status-pill--gold">检测完成</span>
+          </div>
+          <div class="score-block">
+            <span>综合评分</span>
+            <strong>88 / 100</strong>
+          </div>
+          <dl class="info-grid">
+            <div><dt>检测编号</dt><dd>GY-RPT-2026-001</dd></div>
+            <div><dt>检测时间</dt><dd>示例检测时间</dd></div>
+            <div><dt>样本类型</dt><dd>原粮 · 玉米</dd></div>
+            <div><dt>风险等级</dt><dd>中风险</dd></div>
+            <div><dt>主要异常</dt><dd>破碎粒、颜色异常、尺寸不均、疑似杂质</dd></div>
+            <div><dt>处理建议</dt><dd>建议人工复核；分级筛选后进入加工或饲喂链路</dd></div>
+            <div><dt>复核状态</dt><dd>待人工复核</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <!-- 异常谷物处理与资源循环 -->
+    <section class="section" aria-labelledby="cycle-title">
+      <div class="section__head" data-animate="fade-up">
+        <p class="eyebrow">Process 04</p>
+        <h2 id="cycle-title">异常谷物处理与资源循环</h2>
+        <p>检测不合格批次不直接进入饲料链路，而是进入资源化处理流程，降低安全风险并提升农业副产物利用效率。</p>
+      </div>
+      <div class="cycle-visual" data-animate="fade-up">
+        <img class="cycle-visual__img" src="assets/scene-recycle.png" alt="资源循环处理场景" width="640" height="360" loading="lazy">
+        <div class="cycle-visual__badge">
+          <span class="status-dot status-dot--green"></span>
+          流转完成
+        </div>
+      </div>
+      <div class="cycle-grid">
+        <article class="feature-card" data-animate="stagger" data-index="0">
+          <span class="feature-card__icon">1</span>
+          <h3>异常识别</h3>
+          <p>识别重度霉变、病害粒、烂粒等高风险样本，前置拦截安全隐患。</p>
+          <span class="feature-card__tag">风险拦截</span>
+        </article>
+        <article class="feature-card" data-animate="stagger" data-index="1">
+          <span class="feature-card__icon">2</span>
+          <h3>腐熟发酵</h3>
+          <p>集中腐熟发酵，将异常谷物转化为可利用的农田有机肥。</p>
+          <span class="feature-card__tag">资源化处理</span>
+        </article>
+        <article class="feature-card" data-animate="stagger" data-index="2">
+          <span class="feature-card__icon">3</span>
+          <h3>农田回用</h3>
+          <p>用于种植饲草、玉米、高粱、牧草，降低长期饲料原料成本。</p>
+          <span class="feature-card__tag">原料再生产</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- 产业应用场景 -->
+    <section class="section section--scenes" aria-labelledby="scenes-title">
+      <div class="section__head" data-animate="fade-up">
+        <p class="eyebrow">Application</p>
+        <h2 id="scenes-title">产业应用场景</h2>
+        <p>围绕谷物识别、品质检测、批次溯源与资源化处理，覆盖从原粮入库到产业应用的全链路场景。</p>
+      </div>
+      <div class="scene-grid">
+        <article class="scene-card" data-animate="stagger" data-index="0">
+          <div class="scene-card__head">
+            <span class="scene-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </span>
+            <span class="scene-card__status">已覆盖</span>
+          </div>
+          <h3>农户售粮前自检</h3>
+          <p>快速识别破碎粒、颜色异常与杂质风险，辅助售粮前分级。</p>
+          <div class="scene-card__data">
+            <span>品质识别</span>
+            <span>风险预警</span>
+          </div>
+        </article>
+        <article class="scene-card" data-animate="stagger" data-index="1">
+          <div class="scene-card__head">
+            <span class="scene-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </span>
+            <span class="scene-card__status">已覆盖</span>
+          </div>
+          <h3>饲料厂原料入库质检</h3>
+          <p>对入库原料进行抽检与风险分层，减少不合格批次流入。</p>
+          <div class="scene-card__data">
+            <span>批次风控</span>
+            <span>入库质检</span>
+          </div>
+        </article>
+        <article class="scene-card" data-animate="stagger" data-index="2">
+          <div class="scene-card__head">
+            <span class="scene-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </span>
+            <span class="scene-card__status">已覆盖</span>
+          </div>
+          <h3>育种样本筛选</h3>
+          <p>结合样本表现与检测记录，辅助候选样本筛选与品质迭代。</p>
+          <div class="scene-card__data">
+            <span>样本筛选</span>
+            <span>育种辅助</span>
+          </div>
+        </article>
+        <article class="scene-card" data-animate="stagger" data-index="3">
+          <div class="scene-card__head">
+            <span class="scene-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <span class="scene-card__status">已覆盖</span>
+          </div>
+          <h3>批次溯源与品质证明</h3>
+          <p>将检测结果与批次流转节点关联，提升品质证明可信度。</p>
+          <div class="scene-card__data">
+            <span>溯源记录</span>
+            <span>品质证明</span>
+          </div>
+        </article>
+        <article class="scene-card" data-animate="stagger" data-index="4">
+          <div class="scene-card__head">
+            <span class="scene-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </span>
+            <span class="scene-card__status">可扩展</span>
+          </div>
+          <h3>外贸出口前品质辅助评估</h3>
+          <p>围绕外观、杂质与风险指标，辅助出口前品质把关。</p>
+          <div class="scene-card__data">
+            <span>出口评估</span>
+            <span>品质把关</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 项目能力总览 -->
+    <section class="summary" aria-labelledby="summary-title">
+      <div data-animate="fade-up">
+        <h2 id="summary-title">项目能力总览</h2>
+        <p>系统围绕谷物样本识别、品质检测、批次溯源和资源化处理，形成从原粮入库到应用场景的品质管控闭环。</p>
+        <div class="summary__badges" aria-label="核心能力">
+          <span>样本筛选</span>
+          <span>品质识别</span>
+          <span>批次溯源</span>
+          <span>风险分级</span>
+          <span>资源循环</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-top" type="button" id="backTopBtn" aria-label="返回顶部">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <footer class="site-footer">
+    <p>围绕谷物识别、品质检测、批次溯源与资源化处理，构建全链路品质管控闭环。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
