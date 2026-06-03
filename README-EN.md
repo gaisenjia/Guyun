@@ -10,6 +10,14 @@ The project has been deployed as an independent website and can be viewed online
 
 This online page is also part of my AI-assisted learning outcome. It allows reviewers to directly experience the visual design, interaction logic, and overall completion of the project.
 
+## Screenshots
+
+![Guyun hero section](assets/scene-hero-lab.webp)
+
+![AI grain inspection scene](assets/scene-detection.webp)
+
+![Batch traceability scene](assets/scene-traceability.webp)
+
 ## Application Statement for the Creator Program
 
 ### 1. Applicant Background
@@ -18,13 +26,21 @@ I am a vocational college student majoring in the humanities. Before starting th
 
 This project is my first front-end work completed with the support of AI-assisted development, and it has also been deployed as an independent website. I would like to use it to apply for the Creator Program because it demonstrates not only a product concept for agricultural quality control, but also the possibility for non-computer-science students to learn, create, deploy, and practice with the help of AI tools.
 
-### 2. Project Motivation
+### 2. Creation Process
+
+The main creation process of this project took place during the May Day holiday. During that period, I focused on learning several introductory materials. I first learned that a website is usually composed of front-end and back-end parts, and then gradually understood the roles of HTML, CSS, and JavaScript: HTML structures the page, CSS controls the visual style, and JavaScript handles interaction logic.
+
+While learning, I referred to many examples and explanations shared by online creators and tried to turn what I learned into my own project practice. Since I had no programming background, many concepts were difficult at first. I therefore used Codex and its skills to assist with writing, explanation, revision, and debugging. This process was not simple code copying; it involved repeated questioning, comparison, modification, and verification.
+
+Through this experience, I gradually understood the complete process of turning an idea into a web project, from structure and visual design to interaction and online deployment. For me, this project is not only a finished work, but also a systematic practice of AI-assisted self-learning.
+
+### 3. Project Motivation
 
 Grain quality management is closely related to agricultural modernization. Traditional grain inspection often depends on manual experience and scattered records, which may lead to low efficiency, discontinuous data, and limited traceability of quality information. With the development of AI visual recognition, data analysis, and supply chain traceability, agricultural quality management can become more standardized, transparent, and intelligent.
 
 Guyun focuses on grain sample collection, AI visual inspection, risk grading, inspection reports, batch traceability, and resource recycling. It presents these ideas through a static front-end page. The core message of the project is that AI can support not only the technology industry, but also traditional fields such as agriculture, food safety, and supply chain management.
 
-### 3. Project Overview
+### 4. Project Overview
 
 This project is a static web showcase that presents a full-process quality control concept based on AI breeding, quality inspection, and batch traceability.
 
@@ -37,7 +53,7 @@ The page includes the following sections:
 - Abnormal grain handling: presents abnormality detection, fermentation treatment, and farmland reuse
 - Industry scenarios: presents application directions in agriculture, food safety, and supply chain management
 
-### 4. Technical Implementation
+### 5. Technical Implementation
 
 The project is built with lightweight front-end technologies:
 
@@ -48,7 +64,7 @@ The project is built with lightweight front-end technologies:
 
 The project does not use a complex framework or a back-end service. For a beginner like me, this implementation is a practical starting point for learning and presentation while keeping the structure clear and maintainable.
 
-### 5. File Structure
+### 6. File Structure
 
 ```text
 Guyun/
@@ -66,7 +82,7 @@ Guyun/
 └── style.css
 ```
 
-### 6. Learning Outcomes
+### 7. Learning Outcomes
 
 Through this project, I achieved the following learning outcomes:
 
@@ -78,7 +94,7 @@ Through this project, I achieved the following learning outcomes:
 
 For me, this project is not only a technical exercise. It is also a meaningful step from “not knowing how to program” to “being able to express and implement an idea.”
 
-### 7. Reasons for Applying to the Creator Program
+### 8. Reasons for Applying to the Creator Program
 
 I am applying for the Creator Program because I believe creation should not be limited to people who already have professional programming skills. AI tools are lowering the barrier to technical expression and allowing people from different academic and professional backgrounds to participate in digital creation and application design.
 
@@ -86,7 +102,7 @@ If I am accepted into the Creator Program, I hope to continue improving this pro
 
 I hope this project can show that even without a traditional programming background, a person with clear problem awareness, continuous learning, and appropriate AI tools can create work with a theme, structure, and practical value.
 
-### 8. Future Plan
+### 9. Future Plan
 
 I plan to continue improving the project in the following directions:
 
@@ -96,7 +112,7 @@ I plan to continue improving the project in the following directions:
 - Learn basic data storage, API usage, and AI model integration
 - Record the creation process from idea to implementation as a useful case study for beginners
 
-### 9. Note
+### 10. Note
 
 This project is currently a static front-end showcase. The inspection results, batch information, and AI analysis shown on the page are demonstration data and do not represent the output of a real inspection system.
 
