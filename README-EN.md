@@ -2,13 +2,21 @@
 
 AI Breeding and Full-Process Grain Quality Control Front-End Showcase
 
+## Online Showcase
+
+The project has been deployed as an independent website and can be viewed online:
+
+[https://www.guyunxinsheng.cn/](https://www.guyunxinsheng.cn/)
+
+This online page is also part of my AI-assisted learning outcome. It allows reviewers to directly experience the visual design, interaction logic, and overall completion of the project.
+
 ## Application Statement for the Creator Program
 
 ### 1. Applicant Background
 
 I am a vocational college student majoring in the humanities. Before starting this project, I had no formal programming background and no experience independently developing a website or software project. Although I have long been interested in artificial intelligence, digital agriculture, and new creative tools, the technical barrier often made it difficult for me to turn my ideas into a working and presentable project.
 
-This project is my first front-end work completed with the support of AI-assisted development. I would like to use it to apply for the Creator Program because it demonstrates not only a product concept for agricultural quality control, but also the possibility for non-computer-science students to learn, create, and practice with the help of AI tools.
+This project is my first front-end work completed with the support of AI-assisted development, and it has also been deployed as an independent website. I would like to use it to apply for the Creator Program because it demonstrates not only a product concept for agricultural quality control, but also the possibility for non-computer-science students to learn, create, deploy, and practice with the help of AI tools.
 
 ### 2. Project Motivation
 
@@ -92,7 +100,7 @@ I plan to continue improving the project in the following directions:
 
 This project is currently a static front-end showcase. The inspection results, batch information, and AI analysis shown on the page are demonstration data and do not represent the output of a real inspection system.
 
-The repository does not currently provide an online demo page. Reviewers can inspect the project through `index.html`, `style.css`, `script.js`, and the image assets in `assets/`.
+The project has been deployed at [https://www.guyunxinsheng.cn/](https://www.guyunxinsheng.cn/). Reviewers can view the live work online and can also inspect the source files through `index.html`, `style.css`, `script.js`, and the image assets in `assets/`.
 
 ## Languages
 
